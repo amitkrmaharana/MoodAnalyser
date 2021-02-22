@@ -1,7 +1,5 @@
 public class MoodAnalyser {
     public String analyseMood(String message) {
-        if (message.contains("sad"))
-            return "SAD";
-        return "HAPPY";
+        System.out.println("Welcome to Mood Analyser Program");
     }
 }
